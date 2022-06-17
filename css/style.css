@@ -1,3 +1,4 @@
+/* Begin Header */
 .header-dung {
   height: 52px;
   background: #de711d;
@@ -150,7 +151,9 @@
   color: #e8e8e8;
   margin-bottom: 0;
 }
+/* End Header */
 
+/* Begin Menu */
 .menu-dung {
   height: 88px;
 }
@@ -172,10 +175,8 @@
   align-items: center;
   margin-left: 35px;
   margin-bottom: 0;
-
   font-weight: 400;
   font-size: 16px;
-
   color: #101010;
 }
 
@@ -227,7 +228,9 @@
   margin-top: 21px;
   height: 530px;
 }
+/* End Menu */
 
+/* Begin Shopping Guide */
 .shopping-guide-dung {
   height: 181px;
   background: #f5f9ff;
@@ -249,6 +252,9 @@
   font-size: 48px;
   color: #1d4b99;
   margin-left: 60px;
+  width: 52px;
+  height: 59px;
+  margin-bottom: 0;
 }
 
 .o-step-dung {
@@ -295,7 +301,9 @@
 .number-guide-dung {
   margin-top: 50px;
 }
+/* End Shopping Guide */
 
+/* Begin Product */
 .product-hot-dung {
   height: 848.68px;
 }
@@ -357,9 +365,64 @@
   width: 790px;
   height: 740px;
 }
+/* End Product */
 
+/* Begin Carousel */
 .banner-carousel-dung {
   height: 849px;
+}
+
+.mua-sam {
+  position: absolute;
+  top: -600px;
+  left: -40px;
+  width: 714px;
+  height: 30px;
+  font-weight: 900;
+  font-size: 48px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.cung-pakago {
+  position: absolute;
+  top: -550px;
+  width: 509px;
+  height: 80px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.phu-tung {
+  position: absolute;
+  top: -450px;
+  left: -125px;
+  width: 425px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.dat-ngay {
+  position: absolute;
+  top: -390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 10px;
+  width: 191px;
+  height: 52px;
+  background: #211dca;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 .text-in-photo-carousel {
@@ -377,7 +440,9 @@
   letter-spacing: 0.2px;
   color: #ffffff;
 }
+/* End Carousel */
 
+/* Begin Service */
 .service-inf {
   margin-top: 57px;
 }
@@ -524,7 +589,9 @@
   height: 16px;
   margin-left: 85.82px;
 }
+/* End Service */
 
+/* Begin Inf Pakago */
 .inf-pakago {
   margin-top: 60.13px;
   height: 603px;
@@ -585,10 +652,11 @@
   width: 729px;
   margin-top: 106px;
 }
+/* End Inf Pakago */
 
+/* Begin Benefit */
 .benefit-pakago {
   height: 717px;
-
 }
 
 .number-benefit {
@@ -643,7 +711,6 @@
 .text-da-dang {
   width: 233.43px;
   margin: 0 auto;
-  
 }
 
 .help {
@@ -653,7 +720,6 @@
   color: #343d48;
   margin-top: 5px;
   margin-left: 19px;
-
 }
 
 .view-add {
@@ -663,5 +729,336 @@
   color: #3183ff;
   margin-top: 10px;
   margin-left: 19px;
-
 }
+/* End Benefit */
+
+/* Begin Contact */
+.contact-with-us {
+  background: #313b4b;
+  height: 618px;
+}
+
+.img-contact-right {
+  border-radius: 50%;
+  width: 554px;
+  height: 554px;
+}
+
+.text-lien-he {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  width: 742px;
+  height: 234px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.lien-he-vang {
+  color: #de711d;
+}
+
+.button-contact {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 68px;
+  text-align: center;
+  color: #ffffff;
+  background: #de711d;
+  border-radius: 22px;
+  width: 430px;
+  height: 68px;
+  text-transform: uppercase;
+  margin-top: 29px;
+  margin-left: 144px;
+}
+/* End Contact */
+
+/* Begin Order */
+.text-order {
+  height: 733px;
+}
+
+.text-baogia {
+  padding-top: 55px;
+  font-weight: 700;
+  font-size: 44px;
+  color: #ec5863;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.inf-text-baogia {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sum-money {
+  height: 84px;
+  background: #ffffff;
+  box-shadow: 0px 2px 20px rgba(88, 126, 236, 0.15);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 126%;
+  color: #000000;
+}
+
+.tong-tien-do {
+  color: #ec5863;
+}
+
+.text-oder-o {
+  width: 260px;
+  height: 243px;
+  background: #edeef0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 2px 20px rgba(88, 126, 236, 0.15);
+}
+
+.text-inf-order {
+  width: 162px;
+  padding-top: 22px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  color: #616161;
+  height: 45px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  color: #616161;
+}
+/* End Order */
+
+/* Begin Van Chuyen */
+.van-chuyen {
+  background: #dce7f5;
+  height: 719px;
+}
+
+.text-van-chuyen {
+  width: 811px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #0f2137;
+  margin-bottom: 0;
+}
+
+.tien-ich {
+  width: 367px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  color: #478cec;
+  text-transform: uppercase;
+  margin-left: 164px;
+}
+
+.step-tien-ich {
+  margin-top: 38px;
+  background: #e86830;
+  border-radius: 53px;
+  width: 613px;
+  height: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-one {
+  width: 511px;
+  height: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.cung-ung {
+  width: 567px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  color: #de711d;
+  text-align: center;
+}
+
+.uoc {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #101010;
+  padding-bottom: 34px;
+  text-align: center;
+  padding-top: 37px;
+}
+
+.columns-steps {
+  display: flex;
+}
+
+.uoc-one {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 79px;
+  color: #ffffff;
+  background: #0a67e9;
+  border-radius: 21px;
+  height: 79px;
+  text-align: center;
+}
+/* End Van Chuyen */
+
+/* Begin Register */
+.register-login {
+  height: 1106px;
+  margin-top: 0;
+}
+
+.register-login-form {
+  padding-top: 118px;
+  width: 759px;
+  height: 782px;
+}
+
+.img-register {
+  width: 1306px;
+  position: absolute;
+  margin-top: 104px;
+  margin-left: 308px;
+}
+
+.name-user {
+  background: #ffffff;
+  border-radius: 11px;
+  width: 532px;
+  height: 66px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+.button-register {
+  width: 430px;
+  height: 68px;
+  background: #de711d;
+  border-radius: 22px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 166px;
+  margin-bottom: 0;
+}
+
+.login-form {
+  display: flex;
+  text-align: center;
+}
+
+.inf-register {
+  position: absolute;
+  width: 613px;
+  height: 335px;
+  background: #e86830;
+  border-radius: 53px;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  margin-top: 270px;
+  margin-left: 240px;
+}
+
+.text-inf-register {
+  position: absolute;
+  width: 560px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* End Register */
+
+/* Begin Footer */
+.footer {
+  height: 298px;
+  background: #0179ad;
+}
+
+.inf-company {
+  height: 66px;
+  background: #0a486f;
+}
+
+.masothue {
+  font-weight: 400;
+  font-size: 14px;
+  color: #a2a2a2;
+  width: 621px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.register-login {
+  margin-top: 118px;
+  position: relative;
+}
+
+.local-img-company {
+  width: 290px;
+  height: 94px;
+  margin-top: 38px;
+}
+
+.logo-and-local {
+  width: 290px;
+}
+
+.logo-company {
+  margin-top: 65px;
+  width: 220px;
+  height: 50px;
+}
+
+.text-inf-company {
+  margin-top: 65px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.with-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.with-me {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+/* End Footer */

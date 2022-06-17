@@ -51,16 +51,79 @@
 }
 
 .container-pakago-dung {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container-benefit-dung {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 64px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.container-contact-dung {
+  height: 618px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-order-dung {
+  height: 84px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 29px;
+}
+
+.container-order-four-o-dung {
+  max-width: 1118px;
+  margin: 0 auto;
+  margin-top: 47px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-vt-dung {
+  padding-top: 48px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container-vt-one-dung {
+  padding-top: 48px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-register-login {
+  max-width: 759px;
+  margin: 0 auto;
+  background: #347fe1;
+  border-radius: 70px;
+  position: absolute;
+  margin-left: 921px;
+  margin-top: 214px;
+}
+
+.container-inf-register {
+  max-width: 253px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.container-footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
