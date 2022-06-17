@@ -1,0 +1,66 @@
+.wrapper-dung {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-header-dung {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+}
+
+.container-menu-dung {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-dung {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-product-dung {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-service-dung {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* display: flex;
+    justify-content: space-between; */
+}
+
+.container-service-one-dung {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.container-pakago-dung {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-benefit-dung {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
